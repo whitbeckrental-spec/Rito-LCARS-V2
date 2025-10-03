@@ -492,3 +492,81 @@
                     <div class="product-icon">🛡️</div>
                     <h3 class="product-name">Reputation OS</h3>
                     <p class="product-desc">Comprehensive reputati
+
+                        <p class="product-desc">Comprehensive reputation management system</p>
+                    <button class="product-btn">ENGAGE</button>
+                </div>
+                
+                <div class="product-box">
+                    <div class="product-icon">⚙️</div>
+                    <h3 class="product-name">Custom Build</h3>
+                    <p class="product-desc">Tailored applications for specific outcomes</p>
+                    <button class="product-btn">ENGAGE</button>
+                </div>
+            </div>
+            
+            <!-- Info Panel -->
+            <div class="info-panel">
+                <h3 class="info-title">MISSION PARAMETERS</h3>
+                <p class="info-text">
+                    We engineer outcome-specific applications that deliver measurable results for modern businesses and marketplaces. 
+                    Our approach focuses on what matters: driving your specific business outcomes with precision-engineered software solutions.
+                </p>
+            </div>
+            
+            <!-- CTA Section -->
+            <div class="cta-section">
+                <h2 class="cta-title">READY TO LAUNCH?</h2>
+                <button class="cta-button">
+                    GET STARTED
+                    <span>→</span>
+                </button>
+            </div>
+        </main>
+        
+        <!-- Right Sidebar -->
+        <aside class="right-sidebar">
+            <div class="status-panel">
+                <div class="status-label">SYSTEM STATUS</div>
+                <div class="status-value">All systems operational</div>
+            </div>
+            <div class="status-panel">
+                <div class="status-label">PROJECTS ACTIVE</div>
+                <div class="status-value">247 applications deployed</div>
+            </div>
+            <div class="status-panel">
+                <div class="status-label">CLIENT SUCCESS</div>
+                <div class="status-value">98% satisfaction rate</div>
+            </div>
+            <div class="status-panel">
+                <div class="status-label">NAVIGATION</div>
+                <div class="status-value">Course plotted</div>
+            </div>
+        </aside>
+    </div>
+    
+    <!-- Bottom Status Bar -->
+    <footer class="bottom-bar">
+        <div class="status-text">LCARS INTERFACE ACTIVE • STARDATE 2025.10.03</div>
+    </footer>
+    
+    <script>
+        // Generate starfield with more visible stars
+        const starfield = document.getElementById('starfield');
+        for (let i = 0; i < 200; i++) {
+            const star = document.createElement('div');
+            star.className = 'star';
+            star.style.left = Math.random() * 100 + '%';
+            star.style.top = Math.random() * 100 + '%';
+            star.style.animationDelay = Math.random() * 3 + 's';
+            
+            // Vary star sizes
+            const size = Math.random() * 2 + 1;
+            star.style.width = size + 'px';
+            star.style.height = size + 'px';
+            
+            starfield.appendChild(star);
+        }
+    </script>
+</body>
+</html>
